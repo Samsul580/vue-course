@@ -1,13 +1,16 @@
 <!-- JS -->
 <script setup>
 import AnotherComponent from './AnotherComponent.vue'
-console.log('Hello world')
+import AttrBinding from './AttrBinding.vue'
+import DynamicBinding from './DynamicBinding.vue'
 </script>
 
 <!-- HTML -->
 <template>
   <h1>Hello World</h1>
   <AnotherComponent />
+  <AttrBinding />
+  <DynamicBinding />
 </template>
 
 <!-- CSS -->

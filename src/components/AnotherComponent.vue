@@ -2,7 +2,7 @@
 const myMessage = 'Yellow World'
 const herMessage = 'White World'
 const num = 100
-function add(a, b) {
+const add = (a, b) => {
   return a + b
 }
 </script>
